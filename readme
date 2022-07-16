@@ -1,0 +1,13 @@
+接口一：运维管理员requestUserId实时获取得指定机器machineId对应的历史消息列表
+接口URl：ws://localhost:8080/monitor/ws/read/{machineId}/{requestUserId}
+使用方式：
+1. 当该websocket连接建立后，运维管理员会立即从服务器文件中获得该指定机器已持久化的历史消息推送到运维管理员客户端；
+2. 当机器对应有新的消息上送（另外一个Push websocket接口），服务端会实时推送该机器上送的消息到运维管理员客户端；
+3. 多个运维管理员会广播推送消息；
+参数machineId：获得指定机器Id
+参数requestUserId：运维管理员
+
+接口二（原文档Push websocket接口接口,机器上machineId上送自己的消息到后端）：
+接口URl：ws://localhost:8080/monitor/ws/push/{machineId}
+参数machineId：获得指定机器Id
+

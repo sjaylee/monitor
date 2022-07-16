@@ -1,0 +1,6 @@
+{"event":"new","payload":{"id":"41bb0908-15ba-4039-8c4f-8b7b99260eb2","machineId":"m1","status":"running","timestamp":"2022-07-14T07:26:57.352Z"},"topic":"events"}
+{"event":"new","payload":{"id":"41bb0908-15ba-4039-8c4f-8b7b99260eb2","machineId":"m1","status":"running","timestamp":"2022-07-14T07:26:58.229Z"},"topic":"events"}
+{"event":"new","payload":{"id":"41bb0908-15ba-4039-8c4f-8b7b99260eb2","machineId":"m1","status":"running","timestamp":"2022-07-14T07:26:58.983Z"},"topic":"events"}
+{"event":"new","payload":{"id":"41bb0908-15ba-4039-8c4f-8b7b99260eb2","machineId":"m1","status":"running","timestamp":"2022-07-14T07:26:59.635Z"},"topic":"events"}
+{"event":"new","payload":{"id":"41bb0908-15ba-4039-8c4f-8b7b99260eb2","machineId":"m1","status":"running","timestamp":"2022-07-14T07:27:00.400Z"},"topic":"events"}
+{"event":"new","payload":{"id":"41bb0908-15ba-4039-8c4f-8b7b99260eb2","machineId":"m1","status":"running","timestamp":"2022-07-14T07:27:47.246Z"},"topic":"events"}

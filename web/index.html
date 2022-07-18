@@ -36,6 +36,9 @@
             background: green;
 
         }
+        #readMessage{
+            width: 50%;
+        }
 
     </style>
 </head>
@@ -89,10 +92,10 @@
             <button onclick="setUserAndMachine()">设置请求(更新服务URL和报文)</button>
             <input id="readUrl" type="text" size="300" value="ws://localhost:8080/monitor/ws/read/machine1/user1"/>
             <br/><br/>
-            <textarea id="text" type="text">
+            <!--<textarea id="text" type="text">-->
 
-</textarea>
-            <button onclick="sendNotify()">发送消息</button>
+<!--</textarea>-->
+            <!--<button onclick="sendNotify()">发送消息</button>-->
             <hr/>
             <button onclick="closeReadWebSocket()">关闭WebSocket连接</button>
             <hr/>

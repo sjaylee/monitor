@@ -17,20 +17,17 @@ This is a demo project, so I use of local file instead of formal DBMS to store a
 
 #### URL:  ws://localhost:8080/monitor/ws/read/{machineId}/{requestUserId}    
  
- function: the read websocket to expose it to the frontend dev team via a JSON  
+function: the read websocket to expose it to the frontend dev team via a JSON.
  
- machineId: the uplaod message machineId (Unique Identiy), if the maintainer want to read one machine use specified machine Id， if he/she want to read all machines, use "all" instead of "machineId" position.  
+machineId: the param is machine Id of the specified machine which maintainer want read from, and it is unique identiy, you can set it UUID. If the maintainer want to read one of the machine, just need to set the specified machine Id. If the maintainer wants to read all machine's info, she/he needs to set the machineId param with "all" value.  
  
- requestUserId: the maintainer user id
+requestUserId: the param is the maintainer user id.
 
 #### URL:  ws://localhost:8080/monitor/ws/push/{machineId}  
  
- function: the push websocket to collect message send by machine.  
+function: the push websocket to collect message send by machine.  
  
- machineId: the uplaod message machineId (Unique Identiy), if the maintainer want to read one machine use specified machine Id， if he/she want to read all machines, use "all" instead of "machineId" position.  
- 
- {machineId}: the uplaod message machineId (Unique Identiy)
-
+machineId: the param is machine Id of the machine which send message. 
 
 ## Sequence Diagram:  
 

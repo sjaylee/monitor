@@ -27,7 +27,7 @@ requestUserId: the param is the maintainer user id.
  
 function: the push websocket to collect message send by machine.  
  
-machineId: the param is machine Id of the machine which send message. 
+machineId: the param is machine Id of the sending message machine. 
 
 ## Sequence Diagram:  
 

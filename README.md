@@ -27,3 +27,5 @@ JDK1.7 + Spring MVC 4.3.18
 
 
 ## Sequence Diagram:  
+
+![Aaron Swartz](https://raw.githubusercontent.com/sjaylee/myImages/main/%E7%AE%80%E5%8D%95%E6%97%B6%E5%BA%8F%E5%88%86%E6%9E%90.png)

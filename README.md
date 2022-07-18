@@ -36,6 +36,6 @@ This is a demo project, so I use of local file instead of formal DBMS to store a
 
 ![Aaron Swartz](https://raw.githubusercontent.com/sjaylee/myImages/main/%E7%AE%80%E5%8D%95%E6%97%B6%E5%BA%8F%E5%88%86%E6%9E%90.png)
 
-### demo page：
+### Demo page snapshot：
 The image below demostrate the machine send message and the maintainer read the message in soft real time.
 ![Aaron Swartz](https://raw.githubusercontent.com/sjaylee/myImages/main/demo.PNG)
